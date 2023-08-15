@@ -22,10 +22,12 @@
 
   <div class="row withdraw-section d-none p-2">
     <h4> <span> Withdraw Amount: </span> <input class="form-control mt-2 w-50" type="number" name="withdraw_amount" value=""> </h4>
+    <div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
   </div>
 
   <input type="hidden" name="action" value="">
-
 </form>
 
 <div class="row acc-balance d-none">
